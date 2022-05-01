@@ -17,11 +17,11 @@ echo 'Other OS'
 esac
 
 if [ "$OS_TYPE"=='Linux' ]; then
-   mv $PWD/myscripts $HOME/.buildConfig/configFile
+   mv $PWD/scripts $HOME/.buildConfig/configFile
 elif [ "$OS_TYPE"=='Windows' ] ; then
    echo "Windows"
 elif [ "$OS_TYPE"=='MacOS' ] ; then
-   mv $PWD/myscripts $HOME/.buildConfig/configFile
+   mv $PWD/scripts $HOME/.buildConfig/configFile
 else
     echo "Not Support"
 fi
