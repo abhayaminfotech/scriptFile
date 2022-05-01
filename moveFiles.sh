@@ -1,9 +1,5 @@
 #!/bin/bash
 
-
-
-#!/bin/bash
-
 OS_TYPE=""
 case "$(uname -s)" in
  Darwin)
